@@ -10,6 +10,15 @@ public class Model {
     protected String password ;
     public Address address ;
     public String phoneNo ;
+    public Boolean LoggedIn ;
+    public Boolean getLoggedIn() {
+        return LoggedIn;
+    }
+
+    public void setLoggedIn(Boolean loggedIn) {
+        LoggedIn = loggedIn;
+    }
+
     public String getfName() {
         return fName;
     }
